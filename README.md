@@ -18,7 +18,7 @@ as well as the dependencies listed below.
 It can also be run as a Docker container:
 
 ```
-docker run --rm -it etlweather/gaucho query 1s245
+docker run --rm -it sctechdev/gaucho query 1s245
 ```
 
 ### Rancher Host, Access Key and Secret
