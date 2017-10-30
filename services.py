@@ -16,7 +16,7 @@ kwargs = {}
 
 # HTTP
 def get(url):
-   r = requests.get(url, auth=(USERNAME, PASSWORD), **kwargs)
+   r = requests.get(url, auth=(username, password), **kwargs)
    r.raise_for_status()
    return r
 
